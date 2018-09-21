@@ -9,7 +9,7 @@ void draw() {
 void diamar(int posx,int posy){
 pushMatrix();
 translate(posx,posy);  
-  //cabeza base_rectángulo
+  //cabeza_base
   stroke(167,110,0);
   strokeWeight(1);
   line(20,10,20,90);
@@ -48,7 +48,7 @@ translate(posx,posy);
   strokeWeight(3);
   line(25,45,40,45);
   line(60,45,75,45);
-  //pestañas
+  //eyelashes
   line(25,40,25,45);
   line(30,40,30,45);
   line(75,40,75,45);
